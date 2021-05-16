@@ -17,6 +17,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   arcore_flutter_plugin: ^0.0.10
   opencv: ^1.0.4
+  path_provider: ^2.0.1
+  image: ^3.0.2
 
 dev_dependencies:
   flutter_test:
@@ -32,6 +34,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - images/ubuntu.jpg
+    - images/myimages.imgdb
+    - images/earth.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
