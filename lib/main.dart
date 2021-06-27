@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'ar_view_page.dart';
+import 'home.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: ARViewPage(title: 'Flutter ARCore'),
+      home: HomePage(),
     );
   }
 }

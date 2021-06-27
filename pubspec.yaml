@@ -38,7 +38,9 @@ flutter:
   assets:
     - images/ubuntu.jpg
     - images/myimages.imgdb
+    - images/images.imgdb
     - images/earth.jpg
+    - images/fited.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
